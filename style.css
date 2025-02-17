@@ -1,0 +1,250 @@
+.heading{
+    background-color: rgba(255, 255, 255, 0.663);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 94px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+   border-bottom: 1px solid #c9b9997c ;
+}
+.img-1{
+    width: 10%;
+    height: 85px;
+}
+.heading-1{
+  font-size: 24px;
+  width: 50%;
+  height: 29px;
+}
+.heading-1 a{
+    margin-right: 60px;
+}
+.seach{
+    width: 15%;
+   position: relative;
+   display: flex;
+   align-items: center;
+}
+.seach img{
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    left: 10px;
+}
+.seach input{
+    border: 1px solid #c9b999a6;
+    font-size: 14px;
+    flex: 1;
+    border-radius: 30px;
+    padding: 10px 50px;
+}
+.img-2{
+    margin-left: 100px;
+}
+.img-2 img{
+    width: 26.25px;
+    height: 28.33px;
+}
+.heading-2{
+    margin-left: 50px;
+}
+/* <!--thanh tiêu đề --> */
+ .slider{
+    padding-top: 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* ẩn các ảnh khác  */
+    width: 100%;
+    max-width: 1500px;
+    max-height: 600px;
+    margin: 50px auto; /* Canh giữa */
+ }
+.slider-1 {
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* Hiệu ứng chuyển động */
+}
+
+.slider-1 img {
+    width: 100%; /* Đảm bảo ảnh luôn full khung */
+    flex-shrink: 0; /* Không bị thu nhỏ */
+}
+.index-images{
+ position: absolute;
+ margin-bottom: -500px;
+ display: flex;
+}
+.index-item{
+    background-color: #999;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.active{
+    background-color: black;
+}
+.content{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.content p{
+ margin-right: 1200px;
+ font-size: 24px;
+ font-weight: bold;
+}
+.content img{
+    width: 8px;
+    height: 16px;
+}
+.content-1{
+    display: flex;
+    width: 100%;
+    max-width: 1500px;
+    max-height: 600px;
+    margin: 50px auto;
+    overflow-x: scroll;
+   
+}
+::-webkit-scrollbar{
+    width: 20px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(128, 128, 128, 0.259);
+    border-radius: 10px;
+}
+.imgcontent-2 {
+    width: 500px ;
+    height: 300px;
+}
+.imgcontent-2 img{
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    border-radius: 20px;
+}
+.noidungcontent-2 a{
+ font-size: 24px;
+ color: orange;
+}
+.noidungcontent-2{
+    font-size: 17px;
+}
+.noidungcontent-2 p{
+    color: blue;
+}
+.content-3{
+    padding-left: 30px;
+}
+.imgcontent-3 {
+    width: 500px ;
+    height: 300px;
+}
+.imgcontent-3 img{
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    border-radius: 20px;
+}
+.noidungcontent-3 a{
+ font-size: 24px;
+ color: orange;
+}
+.noidungcontent-3{
+    font-size: 17px;
+}
+.noidungcontent-3 p{
+    color: blue;
+}
+.content-4{
+    padding-left: 30px;
+}
+.imgcontent-4 {
+    width: 500px ;
+    height: 300px;
+}
+.imgcontent-4 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    flex-shrink: 0;
+}
+.noidungcontent-4 a{
+ font-size: 24px;
+ color: orange;
+}
+.noidungcontent-4{
+    font-size: 17px;
+}
+.noidungcontent-4 p{
+    color: blue;
+}
+.content-5{
+    padding-left: 30px;
+}
+.imgcontent-5 {
+    width: 500px ;
+    height: 300px;
+}
+.imgcontent-5 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    flex-shrink: 0;
+}
+.noidungcontent-5 a{
+ font-size: 24px;
+ color: orange;
+}
+.noidungcontent-5{
+    font-size: 17px;
+}
+.noidungcontent-5 p{
+    color: blue;
+}
+.content-6{
+    padding-left: 30px;
+}
+.imgcontent-6 {
+    width: 500px ;
+    height: 300px;
+}
+.imgcontent-6 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    flex-shrink: 0;
+}
+.noidungcontent-6 a{
+ font-size: 24px;
+ color: orange;
+}
+.noidungcontent-6{
+    font-size: 17px;
+}
+.noidungcontent-6 p{
+    color: blue;
+}
+.content-1 img{
+    width: 100%;
+    flex-shrink: 0;
+}
+.end{
+    width: 100%;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    margin-top: 50px;
+}
+.end p{
+    font-size: 40px;
+    color: #0af30af3;
+    font-style: italic;
+    align-items: center;
+}
