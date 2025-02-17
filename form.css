@@ -1,0 +1,19 @@
+@media(min-width: 1024px){
+    .pc{
+        display: block;
+    }
+}
+@media (max-width: 740px){
+    .heading{
+     display: block;
+    }
+    .img-1{
+        width: 3%;
+        height: 20px;
+    }
+}
+@media(max-width: 1023px){
+ .ipad{
+    display: block;
+ }
+}
