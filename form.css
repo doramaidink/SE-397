@@ -35,4 +35,10 @@
         font-size: 18px;
         display: flex;
     }
+    .modal-body{
+        width: 60%;
+    }
+    .modal-body-dangki{
+        width: 60%;
+    }
 }
