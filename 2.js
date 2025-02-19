@@ -1,3 +1,5 @@
+//js cho nut đăng kí/ đăng nhập
+
 // gán danh sách các nút ấn 
 // Dùng All khi muốn lấy nhiều phần tử có cùng selector
 // Khi chỉ cần lấy 1 phần tử duy nhất kh cần dùng all

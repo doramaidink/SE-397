@@ -1,37 +1,66 @@
 @media(min-width: 1025px){
     .pc{
     }
-    .heading-1{
-        width: 60%;
-    }
 }
-@media(min-width: 1400px){
+@media(min-width: 1300px){
 }
-@media(max-width: 1024px){
+@media(max-width: 1100px) and (min-width: 740px){
  .ipad{
  }
  .heading{
-    overflow: hidden;
+    overflow: visible;
+    background-color: #9999997c;
+ }
+ .heading-1{
+   width: 150px;
+   overflow: hidden;
+   height: 40px;
+   padding-left: 5px;
+ }
+ .heading-1.open{
+    overflow: visible;
+ }
+ .heading-1 a{
+    font-size: 18px;
+   margin-right: 5px;
+   font-size: 20px;
+   margin-right: 5px;
+   display: flex;
+   font-weight: bold;
+   height: 80px;
+   padding: 10px;
+   background-color: #99999944;
+ }
+ .down{
+    display: flex;
+ }
+ .down:hover{
+    background-color: #9999997d;
+ }
+ .down:active{
+   background-color: rgba(0, 0, 0, 0.37);
  }
 .img-1 img{
     width: 50px;
     height: 50px;
     margin-top: 20px;
 }
-.heading-1{
-   width: 45%;
-}
-.heading-1 a{
-    font-size: 20px;
-    margin-right: 5px;
-}
 .seach{
     width: 5%;
+    margin-left: 50px;
 }
 .seach input{
-    font-size: 5px;
+    font-size: 20px;
     padding: 10px 40px;
 }
+.img-2{
+    margin-left: 300px;
+}
+.content p{ 
+    margin-right: 70%;
+     font-size: 18px;
+     display: flex;
+ }
 }
 @media(max-width: 740px){
     .heading{
@@ -43,6 +72,9 @@
         width: 50px;
         height: 50px;
         margin-top: 20px;
+    }
+    .heading-1{
+        width: 100px;
     }
     .heading-1 a{
       display: none;

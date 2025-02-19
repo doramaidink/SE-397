@@ -1,3 +1,5 @@
+//js cho chuyển động ảnh
+
 const listImage = document.querySelector('.slider-1'); // gán class slider là listimage
 const imgs = document.querySelectorAll('.slider-1 img');// gans toàn bộ thẻ img trong slider 
 const length = imgs.length;
