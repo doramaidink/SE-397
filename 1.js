@@ -10,12 +10,27 @@ setInterval(() => {
         current = 0;
         listImage.style.transform = `translateX(0px)`;
         document.querySelector('.active').classList.remove('active')
-        document.querySelector('.index-item-'+current).classList.add('active')
+        document.querySelector('.index-item-' + current).classList.add('active')
     } else {
         current++;
         let width = imgs[0].offsetWidth; // đọc lại chiều rộng cứ sau 4s4s
         listImage.style.transform = `translateX(${-width * current}px)`; // lấy chiều ngang của ảnh đầu * với số cần di chuyển là cứ 4s nó di chuyển với chiều ngang bằng số lượng nhânnhân Lưu ý là dấu huyền ` not ngoặc ''
         document.querySelector('.active').classList.remove('active')
-        document.querySelector('.index-item-'+current).classList.add('active')
+        document.querySelector('.index-item-' + current).classList.add('active')
     }
 }, 4000);// di chuyển sau 4s
+
+// thay đổi font của class khi lướt chuộtchuột
+$(window).scroll(function () {
+    if (pageYOffset > 80) {
+        $('.heading').addClass('bg-heading');
+        $('.heading-1 a').addClass('font-heading');
+
+    }
+    else{
+        $('.heading').removeClass('bg-heading');
+        $('.heading-1 a').removeClass('font-heading');
+
+    }
+}
+);

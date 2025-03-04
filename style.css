@@ -1,3 +1,7 @@
+*{
+    
+    transition: all 0.3s;
+}
 .heading{
     background-color: rgba(255, 255, 255, 0.663);
     display: flex;
@@ -10,6 +14,12 @@
     right: 0;
     position: fixed;
    border-bottom: 1px solid #c9b9997c ;
+}
+.bg-heading{
+    background-color: #ffffff;
+}
+.font-heading{
+    font-size: 22px;
 }
 .img-1{
     width: 6%;
@@ -37,6 +47,7 @@
 .heading-2 button{
     border: none;
     background-color: white;
+    font-size: 15px;
     
 }
 .heading-2 button:hover{
@@ -118,8 +129,10 @@
 }
 .content p{
  margin-right: 75%;
+ max-width: 100%;
  font-size: 24px;
  font-weight: bold;
+ 
 }
 .content img{
     width: 8px;
@@ -283,7 +296,7 @@
    max-width: (100%-32px);
 }
 .modal-body{
-    width: 30%;
+    width: 25%;
     height: 300px;
     background-color: white;
     border-radius: 20px;
@@ -295,38 +308,54 @@
     background-color: rgba(0, 0, 255, 0.801);
 }
 .modal-heading p{
-    margin-right: 40%;
+    margin-right: 30%;
     font-size: 20px;
     font-weight: bold;
     color: white;
 }
-.modal-heading i{
-    margin-top: 10px;
-    margin-right: 20px;
-    font-size: 30px;
-    color: white;
+.modal-content-dangnhap{
+    width: 100%;
+    margin-left: 11%;
+    margin-top: 20px;
+}
+.modal-content-dangnhap input{
+    width: 75%;
+    height: 25px;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 .modal-content{
-    width: 100%;
-    text-align: center;
-    justify-content: center;
-    margin-top: 30px;
+   width: 100%;
+   margin-left: 50px;
+   margin-top: 20px;
 }
 .modal-content input{
-    width: 50%;
-    height: 30px;
-    margin: 10px;
+    border-radius: 10px;
+    width: 290px;
+    height: 25px;
+}
+.modal-hoten{
+    display: flex;
+    width: 100%;
+}
+.modal-matkhau input{
+   margin-bottom: 10px;
+}
+.modal-hoten input{
+ width: 140px;
+ margin-right: 5px ;
 }
 .modal-content-1{
     justify-content: center;
     text-align: center; 
-    margin: 10px; 
+    margin-top: 10px; 
 }
 .modal-content-1 button{
-    width: 50%;
+    width: 78%;
     height: 30px;
     background-color: rgba(0, 0, 255, 0.801);
     color: white;
+    border-radius: 10px;
 }
 .modal-content-2{
     justify-content: center;
@@ -359,10 +388,11 @@
    align-items: center;
    justify-content: center;
    max-width: (100%-32px);
+   margin-top: 40px;
 }
 .modal-body-dangki{
-    width: 30%;
-    height: 350px;
+    width: 400px;
+    height: 500px;
     background-color: white;
     border-radius: 20px;
 }

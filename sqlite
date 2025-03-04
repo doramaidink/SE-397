@@ -1,0 +1,15 @@
+CREATE TABLE emp(id INTEGER NOT NULL PRIMARY KEY, name TEXT NOT NULL, 
+email NOT NULL);
+INSERT INTO emp( id, name , email)
+VALUES(1,"sam", "test@123.COM");
+SELECT * FROM emp;
+-- CREATE TABLE IF NOT EXISTS registrations (
+--     id INTEGER PRIMARY KEY AUTOINCREMENT,
+--     name TEXT NOT NULL,
+--     email TEXT UNIQUE NOT NULL,
+--     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+-- );
+
+-- -- Chèn một số dữ liệu mẫu
+-- INSERT INTO registrations (name, email) VALUES ('Nguyễn Văn A', 'a@example.com');
+-- INSERT INTO registrations (name, email) VALUES ('Trần Thị B', 'b@example.com');

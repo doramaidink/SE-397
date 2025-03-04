@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="form.css">
     <link rel="stylesheet" href="index2.html">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
      <div class="heading"> <!--thanh tiêu đề -->
@@ -322,7 +323,7 @@
       <p>Đăng nhập</p>
       <button class="modal-close"> X </button>
     </div>
-    <div class="modal-content">
+    <div class="modal-content-dangnhap">
       <input type="text" placeholder="Nhập email hoặc số điện thoại">
       <input type="text" placeholder="Nhập mật khẩu">
     </div>
@@ -342,10 +343,26 @@
       <button class="modal-close"> X </button>
     </div>
     <div class="modal-content">
+      <p> Họ và tên</p>
+      <div class="modal-hoten">
+      <input type="text" placeholder="Nhập họ">
+      <input type="text" placeholder="Nhập tên">
+    </div>
+      <p>Email</p>
       <input type="text" placeholder="Nhập email hoặc số điện thoại">
+      <!-- <p> Vui lòng nhập email hoặc số điện thoại </p>
+       <p> Email hoặc số điện thoại không tồn tại/ đã được đăng kí</p> -->
+       <p>Mật khẩu</p>
+       <div class="modal-matkhau">
       <input type="text" placeholder="Nhập mật khẩu">
+      <!-- <p>Vui lòng nhập mật khẩu</p>
+      <p>Mật khẩu phải có kí tự đặc biệt, có số và chữ</p> -->
       <input type="text" placeholder="Nhập lại mật khẩu">
     </div>
+    </div>
+      <!-- <p>Vui lòng nhập lại mật khẩu</p>
+      <p>Mật khẩu không trùng</p> -->
+    
      <div class="modal-content-1">
       <button> Đăng Ký</button>
      </div>
@@ -357,6 +374,6 @@
 </div>
 <script src="./1.js"></script><!--js của ảnh động(heading) -->
 <script src="./2.js"></script><!--js của 2 bảng đăng kí- đăng nhập (2 modal) -->
-<script src="./3.js"></script>
+ <script src="./3.js"></script> <!--js của nút down -->
 </body>
 </html>

@@ -4,7 +4,7 @@
 // Dùng All khi muốn lấy nhiều phần tử có cùng selector
 // Khi chỉ cần lấy 1 phần tử duy nhất kh cần dùng all
 // ngắn gọn thì dùng all khi sử dụng tập con kh dùng all khi dùng nguyên lớp cha
-const buybtns = document.querySelectorAll('.heading-2 button')
+const buybtns = document.querySelectorAll('.heading-2 button ')
 const modal = document.querySelector('.modal')
 const modaldangki = document.querySelector('.modal-dangki')
 const modalclose = document.querySelectorAll('.modal-close')
@@ -32,8 +32,8 @@ modalclose.forEach(button => {
 // sự kiện khi click nút đăng nhập của modal đăng nhập 
 login.addEventListener('click', () => {
     window.location.href = 'index2.html';// gọi thẳng tới layout
+    
 })
-
 
 
 

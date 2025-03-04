@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="form.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
      <div class="heading"> <!--thanh tiêu đề -->
@@ -18,9 +19,9 @@
         </div>
       <div class="seach"><img src="img/seach.png" alt="">  <input type="text" placeholder="seach">  </div>
       <div class="img-2"> <img src="img/bag.png" alt=""></div>
-       <div class="heading-2">
-         <a> Huey Luu </a>
-        <img src="img/user.jpg" alt="">
+       <div class="heading-user">
+         <a > Huey Luu </a>
+        <img src="img/user.jpg"  alt="">
        </div>
     </div>
   <div class="slider">
@@ -313,7 +314,36 @@
 <div class="end">
  <p> Buy Ticket Now! </p>
 </div>
+<div class="modal-tk">
+  <div class="modal-body-tk">
+    <div class="modal-heading-tk">
+      <p>Tài Khoản</p>
+      <button class="modal-close">X</button>
+    </div>
+    <div class="img-tk">
+      <img src="img/user.jpg" class="img-use" alt=""> 
+      <img src="img/camera.png" class="img-camera" alt="">  
+    </div>
+    <div class="modal-content-tk">
+        <p> Họ và Tên</p>
+        <div class="hoten-tk">
+        <input type="text" placeholder="Huey">
+        <input type="text" placeholder="Luu">
+      </div>
+      <p>Email</p>
+      <input type="text" class="email-tk" placeholder="habamaidink123@maimai.com">
+      <p> Mật Khẩu </p>
+      <div class="matkhau-tk">
+        <input type="text" placeholder="Nhập mật khẩu mới">
+        <input type="text" placeholder="Nhập lại mật khẩu">
+        <input type="text" placeholder="Nhập mật khẩu cũ">
+      </div>
+      <button class="luu-tk"> Luu </button>
+    </div>
+  </div>
+</div>
 <script src="./1.js"></script>
 <script src="./2.js"></script>
+<script src="./4.js"></script>
 </body>
 </html>

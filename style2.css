@@ -1,3 +1,7 @@
+*{
+    
+    transition: all 0.3s;
+}
 .heading{
     background-color: rgba(255, 255, 255, 0.663);
     display: flex;
@@ -11,36 +15,42 @@
     position: fixed;
    border-bottom: 1px solid #c9b9997c ;
 }
+.bg-heading{
+    background-color: #ffffff;
+}
+.font-heading{
+    font-size: 22px;
+}
 .img-1{
     width: 10%;
     height: 85px;
 }
 .heading-1{
-  font-size: 24px;
+  font-size: 20px;
   width: 50%;
   height: 29px;
 }
 .heading-1 a{
     margin-right: 60px;
 }
-.heading-2{
+.heading-user{
     text-align: center;
     justify-content: center;
     display: flex;
 }
-.heading-2 a{
+.heading-user a{
     font-size: 18px;
     margin-top: 15px;
 }
-.heading-2 img{
+.heading-user  img{
     width: 40px;
     height: 40px;
     border-radius: 20px;
 }
-.heading-2 a:hover{
+.heading-user a:hover{
     color: rgba(242, 99, 11, 0.738);
 }
-.heading-2 a:active{
+.heading-user a:active{
     color: rgba(248, 96, 8, 0.351);
 }
 .seach{
@@ -268,3 +278,102 @@
     font-style: italic;
     align-items: center;
 }
+.img-tk{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+.img-use{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.img-camera{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 53%;
+    top: 70%;
+}
+.modal-tk{
+    position:fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+   background-color: #99999952;
+   align-items: center;
+   justify-content: center;
+   max-width: (100%-32px);
+   display: none;
+}
+.modal-tk.open{
+    display: flex;
+}
+.modal-body-tk{
+    width: 25%;
+    height: 600px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 5%;
+}
+.modal-heading-tk{
+    width: 100%;
+    display: flex;
+    text-align: end;
+    justify-content: end;
+    background-color: rgba(0, 0, 255, 0.801);
+}
+.modal-heading-tk p{
+    margin-right: 32%;
+    font-size: 20px;
+    color: #ffffff;
+    
+}
+.modal-close{
+    margin-right: 15px;
+    cursor: pointer;
+    background: none;  /* Xóa màu nền */
+    border: none;      /* Xóa viền */
+    outline: none; 
+    font-size: 25px;
+}
+.modal-content-tk{
+   
+   margin-left: 15%;
+   position: relative;
+}
+.hoten-tk{
+    display: flex;
+    
+}
+.hoten-tk input{
+    margin-right: 5px;
+    width: 36%;
+}
+.modal-content-tk input{
+    height: 25px;
+    border-radius: 10px;
+}
+.email-tk{
+    width: 75%;
+}
+.matkhau-tk{
+    display: block;
+}
+.matkhau-tk input{
+    width: 75%;
+    margin-bottom: 5px;
+}
+.luu-tk{
+    margin-top: 10px;
+    width: 77%;
+    border-radius: 10px;
+    height: 30px;
+    background-color: blue;
+    color: #ffffff;
+}
+
+
