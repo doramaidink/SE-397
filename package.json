@@ -18,6 +18,7 @@
   "homepage": "https://github.com/doramaidink/SE-397#readme",
   "description": "",
   "dependencies": {
+    "mongodb": "^6.14.2",
     "sqlite3": "^5.1.7"
   }
 }

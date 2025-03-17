@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    border-bottom: 8px solid rgb(10, 10, 10) ;
+    width: 100%;
+    z-index: 1;
+}
+.heading-1{
+    width: 7%;
+    
+}
+.heading-1 img{
+    width: 40%;
+    height: 15%;
+    text-align: center;
+}
+.heading-2{
+    width: 10%;
+    text-align: center;
+}
+.heading-3{
+    width: 15%;
+    text-align: center;
+}
+.heading-4{
+    width: 30%;
+    text-align: center;
+}
+.heading-5{
+    width: 30%;
+    text-align: center;
+}
+.heading-6{
+    width: 20%;
+    text-align: center;
+}
+
+.list{
+display: flex;
+margin-top: 2%;
+
+border-bottom: 2px solid black;
+}
+.list img{
+    width: 40px;
+    height: 40px;
+   
+}
+.list p{
+    font-size: 25px;
+    
+}
+.img-list{
+    width: 3%;
+    border: none;
+    background: none;
+}
+.img-list:active{
+    background-color: rgba(0, 255, 42, 0.13);
+}
+.img-avata{
+    width: 15%;
+    text-align: center;
+}
+.name{
+    width: 10%;
+    text-align: center;
+}
+.email{
+    width: 30%;
+    text-align: center;
+}
+.number{
+    width: 10%;
+    text-align: end;
+}
+.img-lichsu{
+    position: absolute;
+    margin-left: 70%;
+    
+}
+.img-trangthai{
+     position: absolute;
+     margin-left: 85%;
+}
+.hoatdong{
+    width: 28%;
+    text-align: end;
+}
+.user{
+    width: 15%;
+    height: 15%;
+}
+.camera{
+    width: 2%;
+    height: 3%;
+    position: absolute;
+    left: 50.5%;
+    top: 30%;
+}
+.modal-avata{
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.modal-tk{
+ top: 0;
+ left: 0;
+ bottom: 0;
+ right: 0;
+ display: none;
+ position: fixed;
+ max-width: (100%-32px);
+ align-items: center;
+   justify-content: center;
+   background-color: rgba(0, 0, 0, 0.185)
+}
+.modal-tk.open{
+    display: flex;
+}
+.modal-body{
+    background-color: white;
+    width: 30%;
+    height: 70%;
+}
+.modal-heading{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    background-color: blue;
+}
+.modal-heading h1{
+    margin-right: 30%;
+}
+.modal-close{
+    background: none;
+    border: none;
+    font-size: 35px;
+    margin-right: 10px;
+}
+.modal-content {
+   margin-left: 13%;
+   margin-top: 20px;
+}
+.hovaten{
+  display: flex;
+  margin-bottom: 10px;
+}
+.hovaten input{
+    border-radius: 5px;
+    width: 40%;
+    height: 25px;
+}
+.email input{
+    height: 25px;
+    width: 330px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.sove{
+    display: flex;
+    margin-bottom: 30px;
+}
+.sove input{
+    height: 25px;
+    margin-left: 25%;
+    width: 100px;
+    border-radius: 5px;
+}
+.modal-end button{
+    width: 70%;
+    margin-left: 13%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: aqua;
+}

@@ -1,0 +1,90 @@
+.heading{
+    display: flex;
+}
+.tim{
+    margin-left: 5%;
+}
+.tim img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 90px;
+    top: 10px;
+}
+.tim input{
+    height: 40px;
+    width: 300px;
+    border-radius: 20px ;
+    border: solid orange;
+    padding-left: 40px;
+}
+.list{
+    margin-left: 15%;
+    width: 50%;
+    border: 2px solid orange;
+    
+}
+.btn-list {
+    margin-left: 10%;
+    border: none;
+    background: none;
+    width: 20%;
+    height: 100%;
+    font-size: 25px;
+   cursor: pointer;
+}
+.active{
+    background-color: orange;
+    border-radius: 20px;
+}
+.sk{
+    border: 3px solid orange;
+    border-radius: 10px;
+}
+.anh{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    
+}
+.anh1 img{
+    width: 500px;
+    height: 300px;
+    margin-top: 20px;
+    
+}
+.anh1{
+    margin: 10px;
+    border: 3px solid rgba(0, 0, 0, 0.24);
+   width: 900px;
+   height: 400px;
+   margin-right: 50px;
+   text-align: center;
+   justify-content: center;
+}
+.anh2{
+    border: 3px solid rgba(0, 0, 0, 0.24);
+    width: 900px;
+   height: 800px;
+   margin: 10px;
+   text-align: center;
+   justify-content: center;
+}
+.anh2 img{
+    width: 600px;
+    height: 700px;
+    margin-top: 20px;
+}
+.txt-logo{
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+}
+.logo-sk{
+    width: 50%;
+    text-align: center;
+}
+.anhnen-sk{
+    width: 50%;
+    text-align: center;
+}

@@ -8,7 +8,6 @@ const buybtns = document.querySelectorAll('.heading-2 button ')
 const modal = document.querySelector('.modal')
 const modaldangki = document.querySelector('.modal-dangki')
 const modalclose = document.querySelectorAll('.modal-close')
-const login = document.querySelector('.modal .modal-content-1 button')
 // tạo hàm: function;
 // cũng có thể gọp lại và làm như close
 function showmodal(){
@@ -29,11 +28,7 @@ buybtns[1].addEventListener('click', () => showmodal());
 modalclose.forEach(button => {
     button.addEventListener('click', closemoda);
 })
-// sự kiện khi click nút đăng nhập của modal đăng nhập 
-login.addEventListener('click', () => {
-    window.location.href = 'index2.html';// gọi thẳng tới layout
-    
-})
+
 
 
 
