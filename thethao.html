@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="amnhac.css">
+</head>
+<body>
+    <div class="heading"> <!--thanh tiêu đề -->
+        <div class="img-1"> <img src="img/Ảnh chụp màn hình 2025-02-16 134607.png" alt=""></div>
+        <div class="heading-1">
+            <a href="amnhac.html" > Âm nhạc </a>
+            <a href="sankhau&nghethuat.html"> Sân khấu & nghệ thuật</a>
+            <a href="thethao.html"> Thể thao </a>
+            <a href="khac.html"> Khác </a>
+        </div>
+        <div class="down"><img src="img/down-arrow.png" alt=""></div>
+      <div class="seach"><img src="img/seach.png" alt="">  <input type="text" placeholder="seach">  </div>
+      <div class="img-2"> <img src="img/bag.png" alt=""></div>
+       <div class="heading-2">
+         <button> Đăng kí </button>
+        <a> | </a>
+        <button> Đăng Nhập </button>
+       </div>
+    </div>
+    <div class="content">
+        <h1> Thể thao</h1>
+        <div class="dong1">
+            <div class="amnhac1">
+                <img src="img/thethao1.png" alt="">
+                <h2>VBA 2024 - FINALS GAME 1 - SAIGON
+                    HEAT vs CANTHO CATFISH</h2>
+                <p>Từ 250.000₫</p>
+                <i>06.02.2025</i>
+            </div>
+            <div class="amnhac2">
+                <img src="img/thethao2.png" alt="">
+                <h2>Chung Kết Muay Thai Rampage x
+                    Road to One-FINALE</h2>
+                <p>Từ 600.000₫</p>
+                <i>21.12.2024</i>
+            </div>
+            <div class="amnhac3">
+                <img src="img/thethao3.png" alt="">
+                <h2>Dogathon - Chạy vì tuowng lai chó - mèo Việt nam</h2>
+                <p>Từ 500.000₫</p>
+                <i>22.02.2025</i>
+            </div>
+        </div>
+        <div class="dong2">
+            <div class="amnhac1">
+                <img src="img/thethao4.png" alt="">
+                <h2>VBA 2024 - FINALS GAME 1 - SAIGON HEAT
+                    vs NHA TRANG DOLPHINS</h2>
+                <p>Từ 250.000₫</p>
+                <i>06.02.2025</i>
+            </div>
+            <div class="amnhac2">
+                <img src="img/thethao5.png" alt="">
+                <h2>LION CHAMPIONSHIP 20 - 2024</h2>
+                <p>Từ 220.000₫</p>
+                <i>14.12.2024</i>
+            </div>
+        </div>
+    </div>
+    <div class="end">
+        <h1>Buy Ticket Now!</h1>
+    </div>
+    <div class="modal "><!--bảng đăng nhập -->
+        <div class="modal-body">
+          <div class="modal-heading">
+            <p>Đăng nhập</p>
+            <button class="modal-close"> X </button>
+          </div>
+          <div class="modal-content-dangnhap">
+            <input type="text" placeholder="Nhập email hoặc số điện thoại">
+            <input type="text" placeholder="Nhập mật khẩu">
+          </div>
+           <div class="modal-content-1">
+            <button> Đăng nhập</button>
+           </div>
+           <div class="modal-content-2">
+            <a href="img/ngu dot.jpg" class="a1">Quên mật khẩu? </a>
+            <a class="a2">Bạn Chưa có tài khoản? </a>
+          </div>
+        </div>
+      </div>
+      <div class="modal-dangki "><!--bảng đăng kí -->
+        <div class="modal-body-dangki">
+          <div class="modal-heading">
+            <p>Đăng Ký</p>
+            <button class="modal-close"> X </button>
+          </div>
+          <div class="modal-content">
+            <p> Họ và tên</p>
+            <div class="modal-hoten">
+            <input id="txt_ho" type="text" placeholder="Nhập họ">
+            <input id="txt_ten" type="text" placeholder="Nhập tên">
+          </div>
+            <p>Email</p>
+            <input id="txt_email" type="text" placeholder="Nhập email hoặc số điện thoại">
+            <!-- <p> Vui lòng nhập email hoặc số điện thoại </p>
+             <p> Email hoặc số điện thoại không tồn tại/ đã được đăng kí</p> -->
+             <p>Mật khẩu</p>
+             <div class="modal-matkhau">
+            <input id="txt_mk" type="text" placeholder="Nhập mật khẩu">
+            <!-- <p>Vui lòng nhập mật khẩu</p>
+            <p>Mật khẩu phải có kí tự đặc biệt, có số và chữ</p> -->
+            <input id="txt_nlmk" type="text" placeholder="Nhập lại mật khẩu">
+          </div>
+          </div>
+            <!-- <p>Vui lòng nhập lại mật khẩu</p>
+            <p>Mật khẩu không trùng</p> -->
+          
+           <div class="modal-content-1">
+            <button id="btn_dk"> Đăng Ký</button>
+           </div>
+           <div class="modal-content-2">
+            <a href="img/ngu dot.jpg" class="a1">Đã có tài khoản? </a>
+            <a class="a2">Đăng nhập ngay </a>
+          </div>
+        </div>
+      </div>
+      <script src="./1.js"></script><!--js của ảnh động(heading) -->
+      <script src="./2.js"></script><!--js của 2 bảng đăng kí- đăng nhập (2 modal) -->
+      <script src="./5.js"></script>
+</body>
+</html>
